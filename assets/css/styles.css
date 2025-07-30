@@ -20,6 +20,16 @@ header {
     margin-bottom: 30px;
     padding: 20px 0;
     border-bottom: 2px solid #f4f4f4;
+    
+}
+
+.main-nav {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    list-style-type: none;
+    padding: 1rem 0;   
+    margin-bottom: 1rem;
 }
 
 h1 {

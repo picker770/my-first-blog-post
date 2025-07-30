@@ -1,173 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My First Blog Post</title>
-    <link rel="stylesheet" href="assets/css/styles.css" />
-  </head>
-  <body>
-    <header>
-      <h1>My Journey into Web Development</h1>
-      <p>A beginner's reflection and learnings</p>
-    </header>
 
-    <article>
-      <section>
-        <h2>Why I started learning Web Development?</h2>
-        <p>
-          I have always been drawn to creative expression, and web development
-          offers the perfect blend of logic and artistry. The ability to build
-          something functional while designing visually engaging experiences
-          captivated me. Whether it is crafting clean layouts with CSS or
-          structuring content with HTML, I love how coding turns ideas into
-          tangible, interactive creations. That is what inspired me to begin this
-          journey.
-        </p>
-      </section>
-      <section>
-        <h2>HTML Fundamentals</h2>
-        <p>
-          I have gained a solid understanding of core HTML concepts, including:
-        </p>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My First Blog Post</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+
+<body>
+  <header>
+    <h1>My Journey into Web Development</h1>
+    <p>A beginner's reflection and learnings</p>
+
+    <nav>
+      <ul class="main-nav">
+        <li><a href="#html">HTML Fundamentals</a></li>
+        <li><a href="#css">CSS Fundamentals</a></li>
+        <li><a href="#challenges">Challenges</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <article>
+    <section>
+      <h2>Why I started learning Web Development?</h2>
+      <p>
+        I have always been drawn to creative expression, and web development
+        offers the perfect blend of logic and artistry. The ability to build
+        something functional while designing visually engaging experiences
+        captivated me. Whether it is crafting clean layouts with CSS or
+        structuring content with HTML, I love how coding turns ideas into
+        tangible, interactive creations. That is what inspired me to begin this
+        journey.
+      </p>
+    </section>
+    <section id="html">
+      <h2>HTML Fundamentals</h2>
+      <p>
+        I have gained a solid understanding of core HTML concepts, including:
+      </p>
+      <ul>
+        <li>
+          Structural Elements
+          <ul>
+            <li>
+              Proper use of<span>
+                div, span, and semantic tags like header, article, and section </span>.
+            </li>
+          </ul>
+        </li>
+        <li>
+          Content Organization
+          <ul>
+            <li>
+              <span>
+                (ul, ol, dl), tables (table), and forms (form, input, select)
+                for structured data and user input.</span>
+            </li>
+          </ul>
+        </li>
+        <li>
+          Multimedia & Interactivity
+          <ul>
+            <li>
+              <span>Embedding images (img), audio/video (audio, video), and
+                dropdown menus (select).</span>
+            </li>
+          </ul>
+        </li>
+        <li>
+          Semantic HTML
+          <ul>
+            <li>
+              <span>Leveraging elements like <code>nav</code>,
+                <code>footer</code>, and <code>figure</code> for better
+                accessibility and SEO.</span>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+    <section id="css">
+      <h2>CSS Fundamentals</h2>
+      <p>My CSS knowledge includes:</p>
+      <ul>
+        <li>Selectors & Specificity</li>
         <ul>
           <li>
-            Structural Elements
-            <ul>
-              <li>
-                Proper use of<span>
-                  div, span, and semantic tags like header, article, and section </span
-                >.
-              </li>
-            </ul>
-          </li>
-          <li>
-            Content Organization
-            <ul>
-              <li>
-                <span>
-                  (ul, ol, dl), tables (table), and forms (form, input, select)
-                  for structured data and user input.</span
-                >
-              </li>
-            </ul>
-          </li>
-          <li>
-            Multimedia & Interactivity
-            <ul>
-              <li>
-                <span
-                  >Embedding images (img), audio/video (audio, video), and
-                  dropdown menus (select).</span
-                >
-              </li>
-            </ul>
-          </li>
-          <li>
-            Semantic HTML
-            <ul>
-              <li>
-                <span
-                  >Leveraging elements like <code>nav</code>,
-                  <code>footer</code>, and <code>figure</code> for better
-                  accessibility and SEO.</span
-                >
-              </li>
-            </ul>
+            Targeting elements using classes, IDs, pseudo-classes (:hover,
+            :focus), and combinators.
           </li>
         </ul>
-      </section>
-      <section>
-        <h2>CSS Fundamentals</h2>
-        <p>My CSS knowledge includes:</p>
+        <li>Layout Techniques</li>
         <ul>
-          <li>Selectors & Specificity</li>
-          <ul>
-            <li>
-              Targeting elements using classes, IDs, pseudo-classes (:hover,
-              :focus), and combinators.
-            </li>
-          </ul>
-          <li>Layout Techniques</li>
-          <ul>
-            <li>
-              Mastering the box model, Flexbox for responsive alignment, and
-              positioning (relative, absolute, fixed).
-            </li>
-          </ul>
-          <li>Styling & Effects</li>
-          <ul>
-            <li>
-              Customizing typography (font-family, font-size), backgrounds
-              (gradients, overlays), and handling overflow.
-            </li>
-          </ul>
-          <li>Maintainability</li>
-          <ul>
-            <li>
-              Organizing stylesheets efficiently and understanding file path
-              structures.
-            </li>
-          </ul>
+          <li>
+            Mastering the box model, Flexbox for responsive alignment, and
+            positioning (relative, absolute, fixed).
+          </li>
         </ul>
-      </section>
-      <section>
-        <h2>Challenges I Faced</h2>
+        <li>Styling & Effects</li>
         <ul>
-          <li>Browser Inconsistencies</li>
-          <ul>
-            <li>
-              Struggled with cross-browser compatibility (e.g., Flexbox gaps in
-              Safari).
-            </li>
-            <li>
-              Learned to use vendor prefixes (-webkit-, -moz-) and progressive
-              enhancement.
-            </li>
-          </ul>
-          <li>CSS Specificity Wars</li>
-          <ul>
-            <li>
-              Overriding styles unintentionally due to poorly managed selectors.
-            </li>
-            <li>
-              Adopted BEM naming conventions to keep specificity predictable.
-            </li>
-          </ul>
-          <li>Responsive Design Hurdles</li>
-          <ul>
-            <li>
-              Initially built "desktop-first" layouts that broke on mobile.
-            </li>
-            <li>Mastered media queries and mobile-first workflows.</li>
-          </ul>
-          <li>Positioning Puzzles</li>
-          <ul>
-            <li>
-              Misused absolute/fixed positioning, causing layout collapses.
-            </li>
-            <li>Practiced with modern layout tools like Flexbox/Grid.</li>
-          </ul>
-          <li>Semantic HTML Trade-offs</li>
-          <ul>
-            <li>
-              Overused <code>div</code> before understanding accessibility
-              benefits of <code>section</code>, <code>nav</code>, etc.
-            </li>
-          </ul>
-          <li>Debugging Frustrations</li>
-          <ul>
-            <li>
-              Spent hours fixing tiny issues (e.g., missing closing tag or
-              display: block vs inline-block).
-            </li>
-            <li>Leveraged DevTools to inspect and troubleshoot efficiently.</li>
-          </ul>
+          <li>
+            Customizing typography (font-family, font-size), backgrounds
+            (gradients, overlays), and handling overflow.
+          </li>
         </ul>
-      </section>
-    </article>
-    <footer>
-        © 2025 Ateeq Raja Rehman  All rights reserved.
-    </footer>
-  </body>
+        <li>Maintainability</li>
+        <ul>
+          <li>
+            Organizing stylesheets efficiently and understanding file path
+            structures.
+          </li>
+        </ul>
+      </ul>
+    </section>
+    <section id="challenges">
+      <h2>Challenges I Faced</h2>
+      <ul>
+        <li>Browser Inconsistencies</li>
+        <ul>
+          <li>
+            Struggled with cross-browser compatibility (e.g., Flexbox gaps in
+            Safari).
+          </li>
+          <li>
+            Learned to use vendor prefixes (-webkit-, -moz-) and progressive
+            enhancement.
+          </li>
+        </ul>
+        <li>CSS Specificity Wars</li>
+        <ul>
+          <li>
+            Overriding styles unintentionally due to poorly managed selectors.
+          </li>
+          <li>
+            Adopted BEM naming conventions to keep specificity predictable.
+          </li>
+        </ul>
+        <li>Responsive Design Hurdles</li>
+        <ul>
+          <li>
+            Initially built "desktop-first" layouts that broke on mobile.
+          </li>
+          <li>Mastered media queries and mobile-first workflows.</li>
+        </ul>
+        <li>Positioning Puzzles</li>
+        <ul>
+          <li>
+            Misused absolute/fixed positioning, causing layout collapses.
+          </li>
+          <li>Practiced with modern layout tools like Flexbox/Grid.</li>
+        </ul>
+        <li>Semantic HTML Trade-offs</li>
+        <ul>
+          <li>
+            Overused <code>div</code> before understanding accessibility
+            benefits of <code>section</code>, <code>nav</code>, etc.
+          </li>
+        </ul>
+        <li>Debugging Frustrations</li>
+        <ul>
+          <li>
+            Spent hours fixing tiny issues (e.g., missing closing tag or
+            display: block vs inline-block).
+          </li>
+          <li>Leveraged DevTools to inspect and troubleshoot efficiently.</li>
+        </ul>
+      </ul>
+    </section>
+  </article>
+  <footer>
+    © 2025 Ateeq Raja Rehman All rights reserved.
+  </footer>
+</body>
+
 </html>
